@@ -54,9 +54,9 @@
   background-color: #fe785a;
   color: #ffffff;
   border-radius: 5px;
-  padding: 20px 15px;
+  padding: 20px 30px;
+  text-decoration: none;
 }
-
 /* utility */
 
 /* nav */
@@ -89,7 +89,7 @@ nav ul li a{
   text-decoration: none;
   font-size: 17px;
   font-family: Montserat, sans-serif;
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 /* nav fixed left */
@@ -119,21 +119,63 @@ nav ul li a{
   border-radius: 5px;
 }
 
+
 .text-right li .but-orange{
   padding: 10px;
 }
 /* nav fixed right */
 
-.pos-rel{
-  position: relative;
-}
-
 .nav-notfix{
-  position: absolute;
-  top: 85px;
+  margin-top: 85px;
 }
 
-.text-right li a{
+.nav-notfix ul li a{
+  padding-left: 15px;
+}
+
+.nav-notfix .text-right li a{
   color: #32495b;
 }
 /* nav */
+
+/* titolo e bg header */
+.bg-header{
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 350px;
+}
+
+/* .title{
+  position: relative;
+  bottom: 200px;
+} */
+
+.title h1{
+  color: #32495b;
+  font-family: Montserat, sans-serif;
+  font-size: 50px;
+}
+
+.title p:nth-child(2){
+  color: #32495b;
+  font-family: Montserat, sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.title a{
+  position: relative;
+  top: 50px;
+}
+
+.title p:last-child{
+  color: #32495b;
+  font-family: Montserat, sans-serif;
+  font-size: 14px;
+  position: relative;
+  top: 100px;
+}
+/* titolo e bg header */

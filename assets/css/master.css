@@ -70,10 +70,12 @@ nav{
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 999;
   border-bottom: 1px solid #32495b;
 }
-
+div .logo{
+  display: inline-block;
+}
 nav ul{
   list-style: none;
   display: inline-block;
@@ -121,5 +123,15 @@ nav ul li a{
   padding: 10px;
 }
 /* nav fixed right */
+
+.pos-rel{
+  position: relative;
+}
+
+.nav-notfix{
+  position: absolute;
+  top: 85px;
+}
+
 
 /* nav */

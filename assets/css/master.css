@@ -1,0 +1,51 @@
+/* utility */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row{
+  margin: 0 -15px;
+}
+
+[class^="col-"]{
+  float:left;
+  padding: 0 15px;
+}
+
+.row:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-100{
+  width:100%;
+}
+
+.col-50{
+  width: 50%;
+}
+
+.col-70{
+  width: 70%;
+}
+
+.col-30{
+  width: 30%;
+}
+
+.col-33{
+  width: 33%;
+}
+
+.col-25{
+  width: 25%;
+}
+/* utility */

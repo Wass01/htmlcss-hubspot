@@ -48,10 +48,21 @@
 .col-25{
   width: 25%;
 }
+
+.but-orange{
+  border: 1px solid #fe785a;
+  background-color: #fe785a;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 20px 15px;
+}
+
 /* utility */
+
+/* nav */
 nav{
-  height: 100px;
-  line-height: 100px;
+  height: 85px;
+  line-height: 85px;
 }
 
 #nav-fixed{
@@ -60,6 +71,7 @@ nav{
   top: 0;
   width: 100%;
   z-index: 9999;
+  border-bottom: 1px solid #32495b;
 }
 
 nav ul{
@@ -75,12 +87,38 @@ nav ul li a{
   text-decoration: none;
   font-size: 17px;
   font-family: Montserat, sans-serif;
+  margin-right: 25px;
 }
 
+/* nav fixed left */
+.color-text li a{
+  color: #32495b;
+}
+
+#vert-bord{
+  border-left: 2px solid #32495b;
+  padding-left: 20px;
+}
+/* nav fixed left */
+
+/* nav fixed right */
 .text-right{
   float: right;
 }
 
-.color-text li a{
-  color: #32495b;
+.fa-search{
+  color: #00a4bd;
 }
+
+#but-login{
+  border: 1px solid #fe785a;
+  color: #fe785a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text-right li .but-orange{
+  padding: 10px;
+}
+/* nav fixed right */
+/* nav */

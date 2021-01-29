@@ -133,5 +133,7 @@ nav ul li a{
   top: 85px;
 }
 
-
+.text-right li a{
+  color: #32495b;
+}
 /* nav */

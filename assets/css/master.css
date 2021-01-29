@@ -6,7 +6,7 @@
 }
 
 .container{
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -49,3 +49,38 @@
   width: 25%;
 }
 /* utility */
+nav{
+  height: 100px;
+  line-height: 100px;
+}
+
+#nav-fixed{
+  background-color: #f4f9fd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+nav ul{
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Montserat, sans-serif;
+}
+
+.text-right{
+  float: right;
+}
+
+.color-text li a{
+  color: #32495b;
+}

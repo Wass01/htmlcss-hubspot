@@ -158,13 +158,13 @@ nav ul li a{
 }
 
 .title h1{
-  color: #32495b;
+  color: #33475B;
   font-family: Montserat, sans-serif;
   font-size: 55px;
 }
 
 .title p:nth-child(2){
-  color: #32495b;
+  color: #33475B;
   font-family: Montserat, sans-serif;
   font-size: 16px;
   margin-top: 30px;
@@ -176,7 +176,7 @@ nav ul li a{
 }
 
 .title p:last-child{
-  color: #32495b;
+  color: #33475B;
   font-family: Montserat, sans-serif;
   font-size: 13px;
   position: relative;
@@ -195,3 +195,70 @@ nav ul li a{
   border-bottom: 3px solid #000000;
 }
 /* titolo e bg header */
+/* header */
+
+/* main */
+.bg-grey{
+  background-color: #f4f9fd;
+}
+/* main cube */
+.main-cube{
+  text-align: center;
+  margin-top: 60px;
+  font-family: Montserat, sans-serif;
+  color: #33475B;
+}
+
+.main-cube > img{
+  height: 200px;
+}
+
+.main-cube > h2{
+  font-size: 33px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.main-cube > p{
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+/* main cube */
+
+.bg-white{
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgb(61 58 58 / 0.2)
+}
+
+/* main book */
+.main-book{
+  font-family: Montserat, sans-serif;
+  color: #33475B;
+  padding: 6%;
+}
+
+.main-book > img{
+  height: 120px;
+  margin-left: 50px;
+}
+
+.main-book > a{
+  position: relative;
+  top: 40px;
+  left: 55px;
+}
+
+.main-book > h3{
+  font-size: 24px;
+}
+
+.main-book > p{
+  font-size: 17px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}

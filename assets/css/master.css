@@ -144,25 +144,29 @@ nav ul li a{
   background-size: cover;
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  padding-top: 80px;
-  padding-bottom: 350px;
+  padding-top: 220px;
+  padding-bottom: 500px;
 }
 
-/* .title{
+.pos-rel{
   position: relative;
-  bottom: 200px;
-} */
+}
+
+.title{
+  position: absolute;
+  bottom: 380px;
+}
 
 .title h1{
   color: #32495b;
   font-family: Montserat, sans-serif;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 .title p:nth-child(2){
   color: #32495b;
   font-family: Montserat, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 30px;
 }
 
@@ -174,8 +178,20 @@ nav ul li a{
 .title p:last-child{
   color: #32495b;
   font-family: Montserat, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   position: relative;
   top: 100px;
+}
+
+.jumbo-line{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  height: 90px;
+  width: 100%;
+  background-color: #AFEBE4;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
 }
 /* titolo e bg header */

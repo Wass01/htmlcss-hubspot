@@ -110,6 +110,7 @@ nav ul li a{
 
 .fa-search{
   color: #00a4bd;
+  margin-right: 25px;
 }
 
 #but-login{
@@ -117,6 +118,7 @@ nav ul li a{
   color: #fe785a;
   padding: 10px;
   border-radius: 5px;
+  margin-right: 25px;
 }
 
 
@@ -289,7 +291,7 @@ nav ul li a{
 }
 /* main book */
 
-/* main /3 */
+/* main card */
 .marg-card{
   margin-left: 5%;
 }
@@ -300,6 +302,7 @@ nav ul li a{
   text-align: center;
   padding: 4%;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .card img{
@@ -330,10 +333,10 @@ nav ul li a{
   margin-bottom: 2em;
 }
 
-
 .card ul {
   list-style: none;
   margin-bottom: 50px;
+  text-align: left;
 }
 
 .card ul li:before{
@@ -342,4 +345,58 @@ nav ul li a{
   background-color: #fe785a;
   border-radius: 50%;
   padding: 0px 3px;
+  margin-right: 15px;
+}
+/* main card */
+
+.bg-green{
+  background-color: #00bda5;
+}
+
+.area-green{
+  font-family: Montserat, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+.area-green h2{
+  font-size: 35px;
+}
+
+.area-green p{
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+/* row area green */
+.table-row{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  color: #ffffff;
+  float: left;
+}
+
+.table-row img{
+  height: 35px;
+}
+
+.table-row h4{
+  font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.border-table{
+  border-bottom: 1px solid  #ffffff;
+  margin-right: 1px solid  #ffffff;
+}
+
+.border-table div:nth-child(2){
+  border-left: 1px solid  #ffffff;
+  border-right: 1px solid  #ffffff;
+  height: 100px;
 }

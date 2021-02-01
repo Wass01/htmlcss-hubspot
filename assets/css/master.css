@@ -285,54 +285,61 @@ nav ul li a{
   background-color: #fe785a;
   border-radius: 50%;
   margin-right: 15px;
+  padding: 0px 3px;
 }
 /* main book */
 
 /* main /3 */
-.marg-sect{
+.marg-card{
   margin-left: 5%;
 }
 
-.main-30{
+.card{
   color: #33475B;
   font-family: Montserat, sans-serif;
   text-align: center;
-  padding: 2%;
+  padding: 4%;
   margin-top: 5%;
 }
 
-.main-30 img{
+.card img{
   height: 100px;
 }
 
-.main-30 h3{
+.card h3{
   font-size: 24px;
   margin-top: 1em;
 }
 
-.main-30 p{
+.card p{
   font-size: 14px;
   margin-top: 2em;
   margin-bottom: 5em;
 }
 
-.main-30 div{
+.card div{
   background-color:#899397;
   height: 1.5px;
   width: 90%;
   margin: 0 auto;
 }
 
-.main-30 h4{
+.card h4{
   font-size: 20px;
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-.main-30 ul li{
+
+.card ul {
   list-style: none;
+  margin-bottom: 50px;
 }
 
-.main-30 a{
-
+.card ul li:before{
+  content: "\2713";
+  color: #ffffff;
+  background-color: #fe785a;
+  border-radius: 50%;
+  padding: 0px 3px;
 }

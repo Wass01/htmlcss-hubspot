@@ -37,6 +37,14 @@
   width: 70%;
 }
 
+.col-60{
+  width: 60%;
+}
+
+.col-40{
+  width: 40%;
+}
+
 .col-30{
   width: 30%;
 }
@@ -406,7 +414,7 @@ nav ul li a{
   border-left: 1px solid  #ffffff;
   height: 175px;
 }
-
+/* row1 */
 /* row2 */
 .border-table-row2 div:nth-child(2){
   border-left: 1px solid  #ffffff;
@@ -422,4 +430,65 @@ nav ul li a{
 .border-table-row2{
   position: relative;
   bottom: 50px;
+}
+/* row2 */
+/* row area green */
+
+/* row aziende */
+.logo-aziende{
+  margin-top: 5%;
+  font-family: Montserat, sans-serif;
+  color: #33475B;
+}
+
+.logo-aziende h3{
+  font-size: 50px;
+  margin-bottom: 5%;
+  margin-left: 60px;
+  width: 45%;
+}
+
+.logo-aziende p{
+  margin-left: 60px;
+  font-size: 15px;
+  width: 45%;
+}
+
+.logo-aziende div img{
+  width: 18%;
+  margin-left: 5%;
+  vertical-align: middle;
+}
+
+.logo-aziende div:last-child{
+  margin-top: 30px;
+}
+/* row aziende */
+
+/* row woman image */
+.title-final{
+  margin-top: 10%;
+  color: #33475B;
+  font-family: Montserat, sans-serif;
+}
+
+.title-final > h3{
+  font-size: 35px;
+}
+
+.title-final p:first-of-type{
+  font-size: 16px;
+  margin-top: 10%;
+  margin-bottom: 16%;
+}
+
+.title-final p:last-of-type{
+  font-size: 13px;
+  margin-top: 15%;
+}
+
+.img-woman{
+  height: 350px;
+  position: relative;
+  top: 65px;
 }

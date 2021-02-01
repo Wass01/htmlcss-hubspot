@@ -349,8 +349,9 @@ nav ul li a{
 }
 /* main card */
 
+/* row area green */
 .bg-green{
-  background-color: #00bda5;
+  background: linear-gradient(#00a4bd, #00bda5);
 }
 
 .area-green{
@@ -369,19 +370,18 @@ nav ul li a{
   margin-top: 40px;
 }
 
-/* row area green */
 .table-row{
   display: inline-block;
   width: 25%;
   text-align: center;
   margin-top: 3em;
-  margin-bottom: 3em;
   color: #ffffff;
   float: left;
 }
 
 .table-row img{
   height: 35px;
+  margin-top: 20px;
 }
 
 .table-row h4{
@@ -390,6 +390,7 @@ nav ul li a{
   margin-bottom: 10px;
 }
 
+/* row1 */
 .border-table{
   border-bottom: 1px solid  #ffffff;
   margin-right: 1px solid  #ffffff;
@@ -398,5 +399,27 @@ nav ul li a{
 .border-table div:nth-child(2){
   border-left: 1px solid  #ffffff;
   border-right: 1px solid  #ffffff;
-  height: 100px;
+  height: 175px;
+}
+
+.border-table div:last-child{
+  border-left: 1px solid  #ffffff;
+  height: 175px;
+}
+
+/* row2 */
+.border-table-row2 div:nth-child(2){
+  border-left: 1px solid  #ffffff;
+  border-right: 1px solid  #ffffff;
+  height: 175px;
+}
+
+.border-table-row2 div:last-child{
+  border-left: 1px solid  #ffffff;
+  height: 175px;
+}
+
+.border-table-row2{
+  position: relative;
+  bottom: 50px;
 }

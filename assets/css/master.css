@@ -263,7 +263,7 @@ nav ul li a{
   font-size: 24px;
 }
 
-.main-book span div{
+.main-book span{
   background-color: #899397;
   height: 1.5px;
   width: 360px;
@@ -498,7 +498,6 @@ nav ul li a{
 
 .list-foot{
   margin-top: 5%;
-  margin-bottom: 5%;
   font-family: Montserat, sans-serif;
 }
 
@@ -531,8 +530,50 @@ nav ul li a{
 
 .social li{
   display: inline-block;
-  padding-left: 20px;
+  padding-right: 20px;
   position: relative;
   bottom: 20px;
-  right: 10px;
+}
+
+/* lingue */
+.lingue{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  border-bottom: 1px solid #cbd6e2;
+  padding: 20px;
+}
+.lingue li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 30px;
+}
+
+.lingue li a{
+  text-decoration: none;
+  color: #cbd6e2;
+  font-family: Montserat, sans-serif;
+}
+/* lingue */
+/* Copyright section */
+
+.copyright{
+  margin-bottom: 5%;
+  font-family: Montserat, sans-serif;
+}
+
+.copyright p{
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.copyright ul li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.copyright ul li a{
+  text-decoration: none;
+  color: #cbd6e2;
 }
